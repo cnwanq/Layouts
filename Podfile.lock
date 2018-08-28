@@ -1,0 +1,64 @@
+PODS:
+  - ComponentKit (0.23):
+    - Yoga (~> 1.6)
+  - FlexLib (1.7.0):
+    - FlexLib/no-arc (= 1.7.0)
+    - Yoga
+  - FlexLib/no-arc (1.7.0):
+    - Yoga
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - Texture (2.7):
+    - Texture/PINRemoteImage (= 2.7)
+  - Texture/Core (2.7)
+  - Texture/PINRemoteImage (2.7):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Yoga (1.9.0)
+  - YogaKit (1.9.0):
+    - Yoga (~> 1.9)
+
+DEPENDENCIES:
+  - ComponentKit
+  - FlexLib
+  - Texture
+  - YogaKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ComponentKit
+    - FlexLib
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Texture
+    - Yoga
+    - YogaKit
+
+SPEC CHECKSUMS:
+  ComponentKit: bf8b4c4e7448bd15b3a8e5a71174ea7aa6cea98d
+  FlexLib: 1c53987bf615c9bd5dce12cbc04415119866b53e
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
+  Yoga: aaae8abea68951f60bee05f6277d3eed90bb91bb
+  YogaKit: d447a9bb808718e6f58e52a2255a8050081a3ead
+
+PODFILE CHECKSUM: 8a349f21843db50f12c9dc4a55ff9a1961bb2619
+
+COCOAPODS: 1.5.3
